@@ -1,4 +1,4 @@
-package com.marselsampe.spring.sprinttest.service;
+package com.marselsampe.spring.springtest.service;
 
 import static org.junit.Assert.assertEquals;
 
