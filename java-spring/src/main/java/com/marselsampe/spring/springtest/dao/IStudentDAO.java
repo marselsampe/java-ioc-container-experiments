@@ -1,8 +1,8 @@
-package com.marselsampe.springtest.dao;
+package com.marselsampe.spring.springtest.dao;
 
 import java.util.List;
 
-import com.marselsampe.springtest.model.Student;
+import com.marselsampe.spring.springtest.model.Student;
 
 public interface IStudentDAO {
 	List<Student> retrieveAll();

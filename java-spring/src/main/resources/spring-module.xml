@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
 
-	<bean id="studentDAO" class="com.marselsampe.springtest.dao.MSSQLStudentDAO" />
+	<bean id="studentDAO" class="com.marselsampe.spring.springtest.dao.MSSQLStudentDAO" />
   
-	<bean id="studentManager" class="com.marselsampe.springtest.lib.StudentManager">
+	<bean id="studentManager" class="com.marselsampe.spring.springtest.lib.StudentManager">
 		<property name="studentDAO" ref="studentDAO" />
 	</bean>
 	
-	<bean id="studentService" class="com.marselsampe.springtest.service.StudentService">
+	<bean id="studentService" class="com.marselsampe.spring.springtest.service.StudentService">
 		<property name="studentManager" ref="studentManager" />
 	</bean>
 

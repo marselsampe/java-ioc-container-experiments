@@ -1,4 +1,4 @@
-package com.marselsampe.springtest.model;
+package com.marselsampe.spring.springtest.model;
 
 public class Student {
 	private String name;

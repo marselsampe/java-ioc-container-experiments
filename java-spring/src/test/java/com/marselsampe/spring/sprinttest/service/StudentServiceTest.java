@@ -1,4 +1,4 @@
-package com.marselsampe.springtest.service;
+package com.marselsampe.spring.sprinttest.service;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,8 +8,8 @@ import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.marselsampe.springtest.model.Student;
-import com.marselsampe.springtest.service.IStudentService;
+import com.marselsampe.spring.springtest.model.Student;
+import com.marselsampe.spring.springtest.service.IStudentService;
 
 public class StudentServiceTest {
 	@Test

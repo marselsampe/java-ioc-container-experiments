@@ -1,11 +1,11 @@
-package com.marselsampe.springtest.lib;
+package com.marselsampe.spring.springtest.lib;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.marselsampe.springtest.dao.IStudentDAO;
-import com.marselsampe.springtest.model.Student;
+import com.marselsampe.spring.springtest.dao.IStudentDAO;
+import com.marselsampe.spring.springtest.model.Student;
 
 public class StudentManager implements IStudentManager {
 	private IStudentDAO studentDAO;

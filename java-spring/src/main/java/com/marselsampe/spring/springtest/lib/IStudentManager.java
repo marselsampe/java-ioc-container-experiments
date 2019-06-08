@@ -1,8 +1,8 @@
-package com.marselsampe.springtest.lib;
+package com.marselsampe.spring.springtest.lib;
 
 import java.util.List;
 
-import com.marselsampe.springtest.model.Student;
+import com.marselsampe.spring.springtest.model.Student;
 
 public interface IStudentManager {
 	List<Student> retrieve(String name, String gender);

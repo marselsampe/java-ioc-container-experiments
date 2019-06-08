@@ -1,9 +1,9 @@
-package com.marselsampe.springtest.dao;
+package com.marselsampe.spring.springtest.dao;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.marselsampe.springtest.model.Student;
+import com.marselsampe.spring.springtest.model.Student;
 
 public class MSSQLStudentDAO implements IStudentDAO {
 	List<Student> students = new ArrayList<Student>();
